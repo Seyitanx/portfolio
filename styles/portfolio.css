@@ -1,16 +1,31 @@
 :root{
     --primary-color: white;
    --background-color: black;
+   --text-font-family: 'Dosis', sans-serif;
+   --heading-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body{
     background-color: var(--background-color);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+font-family:var(--heading-font-family); 
+color: var(--primary-color); 
+font-weight: bold;
+}
+
 .heading{
 text-align: center;
 margin-top: 50px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-color: var(--primary-color);
+}
+
+span{
+font-family: 'Water Brush';
 }
 
 .contact-button{
@@ -29,5 +44,4 @@ color: var(--primary-color);
 }
 .contact-button:hover{
     text-decoration: underline;
-    transition: all ease-in-out 200ms ;
 }
