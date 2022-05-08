@@ -4,9 +4,10 @@
    --text-font-family: 'Dosis', sans-serif;
    --heading-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 body{
-    background-color: var(--background-color);
-}
+    background-image: linear-gradient(to right top, #000103, #04020b, #0f010e, #18000b, #1f0000);
+}    
 
 h1,
 h2,
@@ -59,7 +60,7 @@ font-family: 'Water Brush';
     text-decoration: none;
 }
 .hero{
-    background-color: rgb(25, 18, 27);;
+   
 
 }
 p{
