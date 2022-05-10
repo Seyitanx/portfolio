@@ -43,7 +43,7 @@ font-family: 'Water Brush';
     color: white;
     text-decoration: none;
     font-size: 15px;  
-    box-shadow: 10px 5px 5px 5px #110210;
+    box-shadow: 10px 6px 5px 5px #110210;
 }
 .contact-button:hover{
     text-decoration: underline;
