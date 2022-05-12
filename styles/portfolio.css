@@ -82,14 +82,22 @@ color: var(--primary-color);
    
     color: var(--primary-color);
     font-size: 30px; 
-    background-color: #b99ab6;
-   margin-top: 50px;
-  padding: 20px 30px 20px 20px;
+    background-color: var(--button-backround);
+   margin: 50px;
+  padding: 20px 30px;
   border-radius: 10px;
+  width: 450px;
     
 }
-.contact-email:hover{
+.new-email{
+      text-decoration: none;
+    color: var(--primary-color);
+  
+}
+.new-email:hover{
     color: var(--background-color);
+    
+   
 }
 
 .navigation{
@@ -97,7 +105,7 @@ color: var(--primary-color);
 }
 
 footer{
-    background-color: #b99ab6;
+    background-color: var(--button-backround);
   
 }
 footer .email-link{
@@ -106,7 +114,7 @@ footer .email-link{
     font-size: 24px;
 }
 .email-link:hover{
-color:  rgb(26, 13, 13);
+color:  var(--background-color);
 text-decoration: underline;
 }
 .email{
@@ -131,14 +139,4 @@ text-decoration: underline;
     color: var(--background-color);
     background-color: var(--primary-color);
     transition: all 100ms ease-in-out;
-}
-.new-email{
-      text-decoration: none;
-    color: var(--primary-color);
-  
-}
-.new-email:hover{
-    color: var(--background-color);
-    
-   
 }
