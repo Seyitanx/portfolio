@@ -79,18 +79,17 @@ color: var(--primary-color);
 }
 }
 .contact-email{
-   text-decoration: none;
+   
     color: var(--primary-color);
     font-size: 30px; 
     background-color: #b99ab6;
-    padding: 30px 30px;
+   margin-top: 50px;
+  padding: 20px 30px 20px 20px;
+  border-radius: 10px;
     
 }
 .contact-email:hover{
     color: var(--background-color);
-}
-.mail{
-    margin: 50px 50px;
 }
 
 .navigation{
@@ -132,4 +131,21 @@ text-decoration: underline;
     color: var(--background-color);
     background-color: var(--primary-color);
     transition: all 100ms ease-in-out;
+}
+.new-email{
+      font-family: var(--text-font-family);
+    border-radius: 30px;
+    border: 1px;
+    margin: 10px 10px;
+    background-color: var(--primary-color);
+    padding: 5px 20px;
+    color: #b99ab6;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px 2px#110210;
+    text-decoration: none;
+}
+.new-email:hover{
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    transition: all 150ms ease-in-out;
 }
