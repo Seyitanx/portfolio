@@ -40,7 +40,7 @@ font-family: 'Water Brush';
     border-radius: 30px;
     background-color: var(--button-backround);
     padding: 20px 20px;
-    color: white;
+    color: var(--primary-color);
     text-decoration: none;
     font-size: 15px;  
     box-shadow: 10px 6px 5px 5px #110210;
@@ -78,6 +78,20 @@ color: var(--primary-color);
     text-align: center;
 }
 }
+.contact-email{
+   text-decoration: none;
+    color: var(--primary-color);
+    font-size: 30px; 
+    background-color: #b99ab6;
+    padding: 30px 30px;
+    
+}
+.contact-email:hover{
+    color: var(--background-color);
+}
+.mail{
+    margin: 50px 50px;
+}
 
 .navigation{
     background-color:var(--button-backround)
@@ -85,5 +99,37 @@ color: var(--primary-color);
 
 footer{
     background-color: #b99ab6;
-    height: 100px;
+  
+}
+footer .email-link{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 24px;
+}
+.email-link:hover{
+color:  rgb(26, 13, 13);
+text-decoration: underline;
+}
+.email{
+    display: flex;
+    justify-content: center;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+   
+}
+.socials a{
+    margin: 20px 20px;
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    padding: 10px 10px;
+    border-radius: 30px;
+    line-height: 5px;
+
+}
+.socials a:hover{
+    color: var(--background-color);
+    background-color: var(--primary-color);
+    transition: all 100ms ease-in-out;
 }
