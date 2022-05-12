@@ -133,19 +133,12 @@ text-decoration: underline;
     transition: all 100ms ease-in-out;
 }
 .new-email{
-      font-family: var(--text-font-family);
-    border-radius: 30px;
-    border: 1px;
-    margin: 10px 10px;
-    background-color: var(--primary-color);
-    padding: 5px 20px;
-    color: #b99ab6;
-    text-decoration: none;
-    box-shadow: 2px 2px 2px 2px#110210;
-    text-decoration: none;
+      text-decoration: none;
+    color: var(--primary-color);
+  
 }
 .new-email:hover{
-    color: var(--primary-color);
-    background-color: var(--background-color);
-    transition: all 150ms ease-in-out;
+    color: var(--background-color);
+    
+   
 }
