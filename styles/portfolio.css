@@ -117,7 +117,7 @@ footer{
 footer .email-link{
     text-decoration: none;
     color: var(--primary-color);
-    font-size: 24px;
+    font-size: 15px;
 }
 .email-link:hover{
 color:  var(--background-color);
