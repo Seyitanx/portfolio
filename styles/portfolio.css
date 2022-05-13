@@ -101,7 +101,8 @@ margin: 50px 50px 50px 50px;
   
 }
 .new-email:hover{
-    color: var(--background-color);
+    color: var(--button-backround);
+    text-decoration: underline;
     
    
 }
